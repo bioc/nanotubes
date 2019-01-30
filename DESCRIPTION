@@ -1,6 +1,6 @@
 Package: nanotubes
 Type: Package
-Title: Mouse Nanotube CAGE data
+Title: Mouse nanotube CAGE data
 Version: 0.1.0
 Author: Malte Thodberg
 Maintainer: Malte Thodberg <maltethodberg@gmail.com>

@@ -25,7 +25,7 @@ move_bigwig <- function(f, s){
 
     # Flank
     strand(b) <- s
-    b <- shift(b, 1)
+    #b <- shift(b, 1)
 
     # Export
     oname <- file.path("inst/extdata/", f)
@@ -38,4 +38,4 @@ walk(design$BigWigMinus, move_bigwig, s="-")
 #### Write data ####
 
 nanotubes <- design
-usethis::use_data(nanotubes)
+usethis::use_data(nanotubes, overwrite = TRUE)
