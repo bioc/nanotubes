@@ -13,7 +13,7 @@
 #'   }
 #' @source \url{https://pubs.acs.org/doi/10.1021/acsnano.6b07533}
 #' @examples
-#' BigWig import is only supported on non-windows platforms:
+#' # BigWig import is only supported on non-windows platforms:
 #' if (.Platform$OS.type != "windows") {
 #'     library(GenomicRanges)
 #'     library(rtracklayer)

@@ -23,7 +23,7 @@ Transcription Start Sites (CTSSs), the number of CAGE tag 5'-ends mapping to
 each genomic position, are supplied as BigWig-files (on mm9).
 }
 \examples{
-BigWig import is only supported on non-windows platforms:
+# BigWig import is only supported on non-windows platforms:
 if (.Platform$OS.type != "windows") {
     library(GenomicRanges)
     library(rtracklayer)
