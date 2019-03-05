@@ -23,11 +23,16 @@ Transcription Start Sites (CTSSs), the number of CAGE tag 5'-ends mapping to
 each genomic position, are supplied as BigWig-files (on mm9).
 }
 \examples{
-library(GenomicRanges)
-library(rtracklayer)
-data(nanotubes)
-bw_path <- system.file("extdata", nanotubes$BigWigMinus[1],
-                        package="nanotubes", mustWork = TRUE)
+BigWig import is only supported on non-windows platforms:
+if (.Platform$OS.type != "windows") {
+    library(GenomicRanges)
+    library(rtracklayer)
+    data(nanotubes)
+    bw_path <- system.file("extdata",
+                           nanotubes$BigWigMinus[1],
+                           package="nanotubes",
+                           mustWork = TRUE)
 import(bw_path)
+}
 }
 \keyword{datasets}

@@ -13,10 +13,15 @@
 #'   }
 #' @source \url{https://pubs.acs.org/doi/10.1021/acsnano.6b07533}
 #' @examples
-#' library(GenomicRanges)
-#' library(rtracklayer)
-#' data(nanotubes)
-#' bw_path <- system.file("extdata", nanotubes$BigWigMinus[1],
-#'                         package="nanotubes", mustWork = TRUE)
+#' BigWig import is only supported on non-windows platforms:
+#' if (.Platform$OS.type != "windows") {
+#'     library(GenomicRanges)
+#'     library(rtracklayer)
+#'     data(nanotubes)
+#'     bw_path <- system.file("extdata",
+#'                            nanotubes$BigWigMinus[1],
+#'                            package="nanotubes",
+#'                            mustWork = TRUE)
 #' import(bw_path)
+#' }
 "nanotubes"
