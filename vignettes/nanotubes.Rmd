@@ -52,7 +52,7 @@ For technical questions, bug reports and suggestions for new features, we refer 
 
 CAGE Transcription Start Sites (CTSSs), the number of CAGE tag 5'-end mapping to each genomic location data was obtained from the authors of the original study. Remaining data used in the study can be downloaded from [GSE70386](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70386).
 
-One technical replicate was not included. CTSSs were shifted by one basepair to account for the G-bias trimming.
+One technical replicate was not included.
 
 # Accessing study design and BigWig-Files
 
