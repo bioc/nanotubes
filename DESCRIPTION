@@ -1,10 +1,12 @@
 Package: nanotubes
 Type: Package
 Title: Mouse nanotube CAGE data
-Version: 0.99.3
+Version: 0.99.4
 Author: Malte Thodberg
 Maintainer: Malte Thodberg <maltethodberg@gmail.com>
 Description: Cap Analysis of Gene Expression (CAGE) data from "Identification of Gene Transcription Start Sites and Enhancers Responding to Pulmonary Carbon Nanotube Exposure in Vivo" by Bornholdt et al. supplied as CAGE Transcription Start Sites (CTSSs).
+URL: https://github.com/MalteThodberg/nanotubes
+BugReports: https://github.com/MalteThodberg/nanotubes/issues
 License: GPL-3
 Encoding: UTF-8
 LazyData: FALSE

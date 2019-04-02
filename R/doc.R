@@ -7,7 +7,7 @@
 #' each genomic position, are supplied as BigWig-files (on mm9).
 #'
 #' @format Study design as a data.frame: \describe{ \item{Class}{Experimential
-#'   group (factor): Ctrl (untread) or Nano (Treated with nanotubes)}
+#'   group (factor): Ctrl (Untreated) or Nano (Treated with nanotubes)}
 #'   \item{Name}{Name of sample} \item{BigWigPlus}{BigWig-file holding
 #'   plus-strand CTSSs} \item{BigWigPlus}{BigWig-file holding plus-strand CTSSs}
 #'   }
